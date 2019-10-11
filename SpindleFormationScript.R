@@ -19,7 +19,7 @@
 
 # to plot the data, run the function with your variable names
 # example:
-plotspindles(timepoints,strain1,nospindle_1,spindles_1,strain2,nospindle_2,spindles_2,strain3,nospindle_3,spindles_3)
+# plotspindles(timepoints,strain1,nospindle_1,spindles_1,strain2,nospindle_2,spindles_2,strain3,nospindle_3,spindles_3)
 ###################
 
 plotspindles <- function(timepoints,strain1,MTOC1,MTOC2,strain2,MTOC3,MTOC4,strain3,MTOC5,MTOC6) {

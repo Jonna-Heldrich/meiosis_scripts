@@ -2,11 +2,12 @@
 
 ## Function to call peaks (highly enriched regions)
 ## ssDNA_peakcall("log2file","sampleName")
+## Input: output from microarray3_FeatureExtract.R
 
 # Example: ssDNA_peakcall("top1_avg.txt","top1D")
 
 ssDNA_peakcall <- function(log2file,sampleName) {
-  source('/Volumes/LabShare/HTGenomics/Microarray_database/array_database/Peak_call_microarray.R')
+  source('Peak_call_microarray.R')
   fe=read.table(log2file,header=T)
   
   #in order to use the peak_call function the signal must be changed from log2

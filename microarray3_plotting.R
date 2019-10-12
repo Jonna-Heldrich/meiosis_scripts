@@ -2,6 +2,7 @@
 
 ## Draw plots for to analyze signal across all chromosomes
 ## ssDNA_plots("wt","wtpeak","mutant","mutantpeak","mutantname")
+## Input: output from microarray2_peakcall.R
 
 #Example: ssDNA_plots("WT_avg.txt","WT_avg_peaks.bed","top1.txt","top1_avg_peaks.bed","top1D")
 
